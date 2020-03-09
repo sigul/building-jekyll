@@ -1,3 +1,5 @@
+permalink: /:title
+
 collections:
   projects:
     output: true
