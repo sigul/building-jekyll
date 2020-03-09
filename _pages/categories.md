@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: categories
 ---
 <h2>Original loop for categories in Jekyll doc</h2>
 

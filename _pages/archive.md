@@ -1,6 +1,7 @@
 ---
 title: Selective Archive
 layout: archive
+permalink: archive
 ---
 This pages shows only articles in categories one, two or three
 
