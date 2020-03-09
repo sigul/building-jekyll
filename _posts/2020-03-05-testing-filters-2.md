@@ -1,5 +1,5 @@
 ---
-title: testing filters 2
+title: Article in category two
 categories:
   - two
 ---
