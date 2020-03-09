@@ -1,12 +1,14 @@
 - name: Home
   link: /
 - name: About
-  link: /about.html
+  link: /about
 - name: blog
-  link: /blog.html
+  link: /blog
 - name: projects
-  link: /projects.html
+  link: /projects
 - name: selective archive
-  link: /archive.html
+  link: /archive
 - name: categories
-  link: /categories.html
+  link: /categories
+- name: pages
+  link: /pages
