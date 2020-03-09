@@ -6,5 +6,7 @@
   link: /blog.html
 - name: projects
   link: /projects.html
-- name: archive
+- name: selective archive
   link: /archive.html
+- name: categories
+  link: /categories.html
