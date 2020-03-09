@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+{{ content }}
+
+<ul>
+{% assign posts=site.posts | where_exp: "post", "post.categories contains 'one' or post.categories contains 'two' or post.categories contains 'three'" %}
+<div class="archive">
+<ul>
+{% for post in posts %}
+<li><a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>, {{ post.date | date: '%B %d, %Y'}}</li>
+{% endfor %}
+</ul>
+</div>

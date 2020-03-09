@@ -1,0 +1,17 @@
+---
+# the hashtag is used to comment a front matter item	
+title: "Home of Guli"
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body>
+   {% include header.html %}
+   {{ content }}  
+   {% include navigation.html %}
+  </body>
+</html>
