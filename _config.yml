@@ -1,3 +1,7 @@
+title: Building Jekyll
+baseurl: "/building-jekyll"
+url: "https://sigul.github.io/building-jekyll"
+
 permalink: /:title
 
 include: ['_pages']
