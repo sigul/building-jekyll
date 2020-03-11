@@ -2,6 +2,7 @@
 title: Exemple Content
 layout: post
 render_with_liquid: false
+categories: [one, two]
 ---
 
 
