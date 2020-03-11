@@ -212,10 +212,15 @@ margin-bottom: 2em;
 
 .site-title a {
   display: inline;
-  color: #404040;
-  border-bottom: 2px inset #404040;
+  color: #303030;
+  border-bottom: 3px inset #404040;
   font-size: 14px;
   font-weight: 600;
+}
+
+.site-title a:hover {
+  color: #646464;
+  border-bottom: 3px inset #646464;
 }
 
 .site-title { font-family: -apple-system,Helvetica,Roboto,Arial,sans-serif;}
@@ -249,5 +254,4 @@ nav li a, .menu li a, #pagi a {
 nav li.current_page_item a, nav li.current-menu-item a, nav li.current-post-ancestor a, nav li.current-menu-parent a, nav li.current-post-parent a {
     color:#17191a
 }
-
 
