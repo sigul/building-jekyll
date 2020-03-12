@@ -1,0 +1,60 @@
+/* small screens */
+@media screen and (max-width: 768px){
+.social-sharing-buttons{
+display:none;
+}
+
+h1 {font-size: 1.555em}
+h2 {font-size: 1.155em}
+.submit {margin-left:0}
+.input {border-left:2px solid #d5d5d5}
+}
+
+
+/* dektops */
+@media screen and (min-width: 900px){
+  body, p, h1, h2, h3, h4, h5, nav, form {font-size: 100%;}
+  h1 {font-size: 1.799em;}
+  h2{font-size: 1.299em;}
+  .signup button, input[type=submit]{border-radius: 0 4px 4px 0 !important; margin-left: -4px}
+ 
+
+
+}
+
+@media screen and (min-width: 1200px){
+  body, p, h1, h2, h3, h4, h5, nav, form {font-size: 100%;}
+  h1 {font-size: 1.799em;}
+  h2{font-size: 1.299em;}
+  .signup button, input[type=submit]{border-radius: 0 4px 4px 0 !important; margin-left: -4px}
+  
+}
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+
