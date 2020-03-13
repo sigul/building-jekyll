@@ -1,6 +1,6 @@
 title: Building Jekyll
-baseurl: "/building-jekyll"
-url: "https://sigul.github.io/building-jekyll"
+# baseurl: "/building-jekyll"
+# url: "https://sigul.netlify.com/building-jekyll"
 
 permalink: /:title
 

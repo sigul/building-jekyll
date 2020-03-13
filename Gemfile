@@ -8,5 +8,6 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # setting jekyll to master
 gem "jekyll", github:"jekyll/jekyll"
 
-# usingh gh-pages
-gem "github-pages"
+# using gh-pages
+# gem "github-pages", "~> 204", group: :jekyll_plugins
+# gem "jekyll"
