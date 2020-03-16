@@ -1,6 +1,8 @@
 ---
 # front matter has been created to tell jekyll to process this page
 ---
-@import "main";
+@import "vanilla";
+@import "vanilla-body";
+@import "my-code";
 @import "site-footer";
 @import "mailchimp";
