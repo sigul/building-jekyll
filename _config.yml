@@ -3,7 +3,12 @@ description: A simple Jekyll website built from scratch.
 # baseurl: "/building-jekyll"
 url: "https://building-jekyll.netlify.com/"
 author:
+  name: Silvio Gulizia
+  image: /assets/images/silviogulizia.jpg
+
+twitter:
   twitter: silviogulizia
+  card: summary_large_image
 
 permalink: /:title
 

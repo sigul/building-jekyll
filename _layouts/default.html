@@ -13,7 +13,12 @@ title: "Home of Guli"
     <link rel="icon" href="/assets/images/cropped-foto-sito-192x192.jpg" sizes="192x192" />
     <link rel="apple-touch-icon-precomposed" href="/assets/images/cropped-foto-sito-180x180.jpg" />
     <meta name="msapplication-TileImage" content="/assets/images/cropped-foto-sito-270x270.jpg" />
-  {% seo %}
+    {% if page.tile %}
+      <title>{{ page.title }}</title>
+    {% else %}
+      <title>{{ site.title }}</title>
+    {% endif %}
+    {% seo title=false %}
   </head>
   <body>
    {% include header.html %}
