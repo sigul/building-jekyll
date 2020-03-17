@@ -11,3 +11,6 @@ gem "jekyll", github:"jekyll/jekyll"
 # using gh-pages
 # gem "github-pages", "~> 204", group: :jekyll_plugins
 # gem "jekyll"
+
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
