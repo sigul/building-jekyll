@@ -1,7 +1,7 @@
 title: Building Jekyll
 description: A simple Jekyll website built from scratch.
 # baseurl: "/building-jekyll"
-# url: "https://sigul.netlify.com/building-jekyll"
+url: "https://building-jekyll.netlify.com/"
 author:
   twitter: silviogulizia
 
@@ -24,6 +24,11 @@ defaults:
       type: "project"
     values:
       layout: "project"
+  -
+     scope:
+      path: "assets/**/*.pdf"
+     values:
+      sitemap: false
 
 plugins:
   - jekyll-seo-tag
