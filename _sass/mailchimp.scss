@@ -24,7 +24,7 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
 }
 
 #mc_embed_signup input.email:hover {
-	border: 1px solid #ABB0B2;
+	border: 1px solid #646464;
 }
 
 #mc_embed_signup .clear {
@@ -126,6 +126,7 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
     #mc_embed_signup input.email {
         width: 100%;
         margin-bottom: 5px;
+        border-left: 1px solid #ABB0B2;
     }
     #mc_embed_signup .clear {
         display: block;
