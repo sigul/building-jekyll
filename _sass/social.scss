@@ -1,0 +1,33 @@
+.social-sharing-buttons {
+    position: fixed;
+    right: -60px;
+    font-weight: 300;
+    top: 305px;
+    z-index: 1000;
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color: #a0a9ae;
+}
+
+ul.share-buttons {
+    list-style: none;
+    padding: 0;
+}
+
+ul.share-buttons li {
+    display: inline;
+}
+
+.share-buttons li a {
+    color: #a0a9ae;
+    text-decoration: none;
+    font-size: .8em;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .social-sharing-buttons {
+        display: none;
+    }
+}
