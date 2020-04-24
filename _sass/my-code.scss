@@ -10,6 +10,10 @@ a, a:visited {
   border-bottom: 2px solid #ff6b6b;
 }
 
+.post-content a:hover {
+  border-bottom: 5px solid %ff6b6b;
+  }
+
 cite {
   display: block;
   text-align: right;
