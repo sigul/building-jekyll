@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 .content a, .content a:visited {
   text-decoration: none;
   border-bottom: 2px solid #ff6b6b;
+  transition: 300ms;
 }
 
 .content a:hover {
@@ -38,6 +39,7 @@ cite:before {
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
+  transition: 300ms;
 }
 
 .site-title a:hover {
@@ -55,6 +57,9 @@ cite:before {
 }
 
 /* navigation */
+nav {
+  margin-top: 3rem;
+}
 nav a, nav a:visited {
     text-decoration: none;
     font-size: .75em;
