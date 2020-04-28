@@ -1,16 +1,21 @@
-.post-title, .post-title a, nav li a, h1, h2, h3, h1 > a, h2 > a, h3 > a, button, input[type="submit"], input[type="email"], .title a, .title span, .share-buttons li a {
-  font-family: calluna-sans,europa,inter ui,helvetica,arial,sans-serif;
+/* my code */
+
+body {
+  font-family: calluna-sans, helvetica, arial,sans-serif;
   letter-spacing: .02em;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: calluna, georgia, serif;
+  letter-spacing: .02em;
+}
 
-/* my code */
-.post-content a, .post-content a:visited {
+.content a, .content a:visited {
   text-decoration: none;
   border-bottom: 2px solid #ff6b6b;
 }
 
-.post-content a:hover {
+.content a:hover {
   border-bottom: 5px solid #ff6b6b;
   }
 
