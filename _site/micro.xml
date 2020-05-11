@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Silvio Gulizia Microblog</title>
+    <description>Personal thoughts</description>
+    <link>https://gr36.com</link>
+    <atom:link href="https://gr36.com/micro.xml" rel="self" type="application/rss+xml" />
+    { % for post in site.micro reversed % }
+      <item>
+        <title></title>
+        <description>
+          
+        </description>
+        <pubDate></pubDate>
+        <link>https://gr36.com</link>
+        <guid isPermaLink="true">https://gr36.com</guid>
+      </item>
+    { % endfor % }
+  </channel>
+</rss>

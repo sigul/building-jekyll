@@ -17,23 +17,29 @@ include: ['_pages']
 collections:
   projects:
     output: true
+  micro:
+    output: true
+    permalink: /micro/:title
 
 defaults:
-  - scope:
+  - 
+    scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-  - scope:
+  - 
+    scope:
       path: ""
       type: "project"
     values:
       layout: "project"
-  -
-     scope:
-      path: "assets/**/*.pdf"
-     values:
-      sitemap: false
+  - 
+    scope:
+      path: ""
+      type: "micro"
+    values:
+      layout: "post"
 
 plugins:
   - jekyll-seo-tag

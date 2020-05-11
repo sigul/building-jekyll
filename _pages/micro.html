@@ -1,0 +1,23 @@
+---
+layout: page
+permalink: micro
+title: My micro blog
+---
+{% for item in site.micro reversed %}
+<article>
+  {% if item.title %}
+    {% if item.link %}
+      <a href="{{ item.link }}" target="_blank">
+      <h2>{{ item.title }}</h2>
+      </a>
+    {% else %}
+      <a href="{{ item.url }}">
+      <h2>{{ item.title }}</h2>
+      </a>
+    {% endif %}
+  {% endif %}  
+  <p>{{ item.content | markdownify }}</p>
+  <i><a href="{{ item.url }}">{{ item.date | date_to_long_string }}</a></i>
+  <p>---</p>
+</article>
+{% endfor %}
